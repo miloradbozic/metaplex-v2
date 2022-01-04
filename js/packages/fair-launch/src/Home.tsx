@@ -332,6 +332,7 @@ const Home = (props: HomeProps) => {
             props.candyMachineId,
             props.connection,
           );
+          console.log("CAndy machine", cndy)
           setCandyMachine(cndy);
         } catch (e) {
           console.log('Problem getting candy machine state');

@@ -1,0 +1,6 @@
+git clone https://github.com/metaplex-foundation/metaplex.git ./metaplex-v2
+yarn install --cwd ./metaplex-v2/js/
+ts-node ./metaplex-v2/js/packages/cli/src/candy-machine-v2-cli.ts upload -e mainnet-beta -k C:\Users\User\.config\solana\devnet.json -cp config.json -c mainnet-nwt ./assets
+ts-node ./metaplex-v2/js/packages/cli/src/candy-machine-v2-cli.ts verify -e mainnet-beta -k C:\Users\User\.config\solana\devnet.json -c mainnet-nwt 
+
+ts-node ./metaplex-v2/js/packages/cli/src/candy-machine-v2-cli.ts update_candy_machine -e mainnet-beta -k C:\Users\User\.config\solana\devnet.json -cp config.json -c mainnet-nwt

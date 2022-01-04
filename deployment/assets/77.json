@@ -1,0 +1,48 @@
+{
+    "name": "Nether World Tales NFT 78",
+    "symbol": "",
+    "description": "Nether World Tales NFT Collection Vol 1 - NFT 78",
+    "seller_fee_basis_points": 500,
+    "image": "image.png",
+    "attributes": [
+      {
+      "trait_type": "Shape",
+      "value": "Tube"
+      }, 
+      {
+      "trait_type": "Top Light",
+      "value": "Green"
+      }, 
+      {
+      "trait_type": "Mid Light",
+      "value": "Light Blue"
+      }, 
+      {
+      "trait_type": "Rarity",
+      "value": "Common"
+      }
+      ],
+    "collection": {
+       "name": "Netherworld Tales NFT Collection Vol 1",
+       "family": "NetherworldTales"
+    },
+    "properties": {
+      "files": [
+        {
+          "uri": "image.png",
+          "type": "image/png"
+        }
+      ],
+      "category": "image",
+      "creators": [
+        {
+        "address": "6y1g6PaDP4YMswr6ThwLh9ewRKgPyvxsN4RWvYpC8GHn",
+        "share": 50
+        }, 
+        {
+        "address": "5QYKVtTDPqvGVpgGid5hvTzErvzDuzSJCxban71xSZvA",
+        "share": 50
+        }
+      ]
+    }
+  }
